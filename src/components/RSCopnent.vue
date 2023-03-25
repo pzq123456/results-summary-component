@@ -45,27 +45,27 @@
 
 <script setup>
 import { ref } from 'vue'
-
+// https://pzq123456.github.io/results-summary-component/images/icon-reaction.svg
 const dataList = ref([
   {
     "category": "Reaction",
     "score": 80,
-    "icon": "/src/assets/images/icon-reaction.svg",
+    "icon": "https://pzq123456.github.io/results-summary-component/images/icon-reaction.svg",
   },
   {
     "category": "Memory",
     "score": 92,
-    "icon": "/src/assets/images/icon-memory.svg"
+    "icon": "https://pzq123456.github.io/results-summary-component/images/icon-memory.svg"
   },
   {
     "category": "Verbal",
     "score": 61,
-    "icon": "/src/assets/images/icon-verbal.svg"
+    "icon": "https://pzq123456.github.io/results-summary-component/images/icon-verbal.svg"
   },
   {
     "category": "Visual",
     "score": 72,
-    "icon": "/src/assets/images/icon-visual.svg"
+    "icon": "https://pzq123456.github.io/results-summary-component/images/icon-visual.svg"
   }
 ]);
         // --primary-light-red: hsl(0, 100%, 67%);
