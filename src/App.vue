@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <RSCopnent />
+        <RSCopnent />
 </template>
 
 <style>
