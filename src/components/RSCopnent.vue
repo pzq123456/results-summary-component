@@ -167,11 +167,11 @@ const TextColors = ref([
     }
 
     .dataBar{
-        width:300px;
+        width:100%;
         height: 60px;
         display: flex;
         align-items: center;
-        margin: 0 0 0 40px;
+        margin: 0 auto;
         border-radius: 10px;
     }
 
@@ -344,8 +344,59 @@ const TextColors = ref([
 
         /*align self center */
         margin: 0 auto;
-
-
     }
+
+
+    @media screen and (max-width: 375px) {
+        .card{ 
+            /* aligin items in column */
+            flex-direction: column;
+
+            /* center */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            /* center itself */
+            margin: 0 auto;
+
+            height: 100%;
+            width: 100%;
+        }
+
+        .card-left{
+            /* center */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            /* center itself */
+            margin: 0 auto;
+
+            height: 100%;
+            width: 100%;
+
+
+        }
+
+        .card-right{
+            height: 100%;
+            width: 100%;
+            /* center */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+            /* center itself */
+            margin: 0 auto;
+        }
+
+        
+    }
+
 
 </style>
